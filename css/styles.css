@@ -1,0 +1,21 @@
+html, body, header {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    width: 100%;
+    background-color: #d1c393;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    width: 100%;
+}
