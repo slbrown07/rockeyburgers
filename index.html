@@ -4,14 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <title>Rockey Burgers</title>
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-
-    <script defer src='scripts/scripts.js'></script>
-
-    <title>Rockey Burgers</title>
-
 </head>
 <body>
     <header>
@@ -19,35 +15,60 @@
             <img src="images/rockeyburgers03-logo.png" alt="Rockey Burgers Logo">
         </figure>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="html/about.html">About</a>
-            <a href="html/location.html">Locations</a>
-            <a href="html/menu.html">Menu</a>
-            <a href="html/subscribe.html">Subscribe</a>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="html/about.html">About</a></li>
+                <li><a href="html/location.html">Locations</a></li>
+                <li><a href="html/menu.html">Menu</a></li>
+                <li><a href="html/subscribe.html">Subscribe</a></li>
+            </ul>
         </nav>            
     </header>
     <main>
-        <section>
+        <section class="intro">
             <h1>Rockey Burgers</h1>
             <h2>Best Quality Burgers in Town. Off the Charts.</h2>
             <figure>
                 <img src="images/burger-hero.jpg">
-                <figcaption><h3>Enjoy this delicious Hero Burger!</h3></figcaption>
+                <figcaption>Enjoy this delicious Hero Burger!</figcaption>
             </figure> 
         </section> 
-        <section>
-            <article><a href="html/about.html">About</a></article>
-            <article><a href="html/menu.html">Menu</a></article>
-            <article><a href="html/location.html">Locations</a></article>
+        <section class="menuopt">
+            <figure>
+                <a href="html/menu.html#sandwiches">
+                    <img src="images/SuperBurger.jpg" alt="Sandwich Options">
+                </a>
+                <figcaption>
+                    <a href="html/menu.html#sandwiches">Sandwich Options</a>
+                </figcaption>
+            </figure>
+            <figure>
+                <a href="html/menu.hjtml#sides">
+                    <img src="images/frenchFries.jpg" alt="Side Options">
+                </a>
+                <figcaption>
+                    <a href="html/menu.html#sides">Side Options</a>
+                </figcaption>
+            </figure>
+            <figure>
+                <a href="html/menu.html#treats">
+                    <img src="images/milkshake.jpg" alt="Dessert Options">
+                </a>
+                <figcaption>
+                    <a href="html/menu.html#treats">Dessert Options</a>
+                </figcaption>
+            </figure>
         </section>
     </main>
     <footer>
-        <a href="html/faq.html">FAQ</a>
-        <a href="html/jobs.html">Career</a>
-        <a href="http://www.twitter.com/keyburgers"><i class="fab fa-twitter-square"></i></a>
-        <a href="http://facebook.com/keyburgers"><i class="fab fa-facebook-square"></i></a>
-    </footer>
-       
-            
+        <nav>
+            <ul>
+                <li><a href="html/faq.html"><i class="far fa-question-circle"></i> FAQ</a></li>
+                <li><a href="html/jobs.html"><i class="fas fa-hamburger"></i> Employment</a></li>
+                <li><a href="http://ww.twitter.com/keyburgers"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+                <li><a href="http://www.facebook.com/keyburgers"><i class="fab fa-facebook"></i> Facebook</a></li>
+            </ul>
+        </nav>
+    </footer>        
 </body>
 </html>

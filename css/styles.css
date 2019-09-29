@@ -1,21 +1,189 @@
-html, body, header {
+/*global sytles*/
+
+html, body {
     margin: 0;
     padding: 0;
+    border: 0;
+    font-family: 'Be Vietnam', sans-serif;
 }
-
+body {
+    position: absolute;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+figcaption {
+    font-size: 1em;
+}
+img {
+    width: 100%;
+    border: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
+h2 {
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
+h3 {
+    font-size: 1.2em;
+    border-bottom: 2px solid #c5977d;
+}
+h4 {
+    font-size: 1em;
+}
+ /*styles for header tag*/
 
 header {
     width: 100%;
-    background-color: #d1c393;
-    position: relative;
+    background-color: #91cace;
+    position: fixed;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 1; 
 }
-
-.logo {
+header figure {
     width: 20%;
+    padding: 5px;
+    margin: 0;
+}
+header nav {
+    padding-bottom: 5px;
+} 
+header nav li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+} 
+header nav li a {
+    color: #ffffff;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+  }
+header nav li a.active {
+    color: #000000;
+    font-weight: bold;
+}
+header nav li a.active:hover {
+    color: #ffffff;
+}
+header nav li a:hover {
+    background-color: #000000;
+}
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+/*styles for footer tag*/
+ 
+footer {
+    width: 100%;
+    background-color: #d9e8e9;
 }
 
-.logo img {
+footer nav {
+    margin-top: 10px;
     width: 100%;
+    text-align: center;
+} 
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px;
+  }
+
+footer nav li {
+    display: inline;
+} 
+footer nav li a {
+    color: #000000;
+    font-size: .8em;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+  }
+footer nav li a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/*styles for main tag*/
+
+main {
+    margin-top: 120px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.intro figure {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.menuopt {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px auto;
+}
+
+.menuopt figure {
+    margin: 10px 0;
+    padding: 0;
+    border: 2px solid #91cace;
+    border-radius: 5px;
+    width: 300px;
+    height: 275px;
+    overflow: hidden;
+}
+.menuopt figure a {
+    height: 100%;
+    width: 100%;
+}
+.menuopt figure a img {
+    height: 100%;
+    width: 100%;
+}
+.menuopt figure figcaption {
+    text-align: center;
+
+}
+.menuopt figure figcaption a {
+    color: #000000;
+    font-size: .9em;
+    padding: 5px;
+    text-decoration: none;
+}
+ 
+/* styles for about page */
+
+article {
+    margin: 5px 10px;
+
+}
+
+aside {
+    border: 2px solid #91cace;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
 }
