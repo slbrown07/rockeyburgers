@@ -56,6 +56,15 @@ h5 {
     padding-top: 0;
     margin: 0;
 }
+
+.address {
+    padding: 20px 0;
+}
+
+.address p {
+    padding: 0;
+    margin: 0 20px;
+}
  /*styles for header tag*/
 
 header {
@@ -229,4 +238,14 @@ aside {
     width: 60%;
     padding-top: 10px;
 }
+.locations {
+    width: 80%;
+    margin: 0px, auto;
+}
+.locDetails {
+    margin-left: 20px;
+}
+
+
+
 
