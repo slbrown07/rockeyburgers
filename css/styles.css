@@ -40,7 +40,7 @@ h2 {
 }
 h3 {
     font-size: 1.2em;
-    border-bottom: 2px solid #c5977d;
+    border-bottom: 2px solid #fdd9c4;
     font-weight: bolder;
 }
 h4 {
@@ -174,7 +174,7 @@ main {
 .menuopt figure {
     margin: 10px 0;
     padding: 0;
-    border: 2px solid #91cace;
+    border: 2px solid #fdd9c4;
     border-radius: 5px;
     width: 300px;
     height: 275px;
@@ -208,7 +208,7 @@ article {
 }
 
 aside {
-    border: 2px solid #91cace;
+    border: 2px solid #fdd9c4;
     border-radius: 5px;
     width: 80%;
     margin: 0 auto;
@@ -227,7 +227,7 @@ aside {
 .menuitem figure {
     margin: 10px 0;
     padding: 0;
-    border: 2px solid #91cace;
+    border: 2px #91cace solid;
     border-radius: 5px;
     width: 300px;
     height: 275px;
@@ -245,6 +245,40 @@ aside {
 .locDetails {
     margin-left: 20px;
 }
+
+.subDetail {
+    width:  40%;
+    background: #fdd9c4;
+    border: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 30px;
+}
+input {
+    display: block;
+    margin: 30px;
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+input:hover {
+    border: 5px solid #91cace;
+}
+label {
+    padding: 5px;
+    margin: 5px;
+}
+button {
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #91cace;
+    border-radius: 5px;
+    align-items: center;
+}
+
 
 
 
