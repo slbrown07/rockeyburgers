@@ -4,30 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Rockey Burgers FAQ</title>
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script defer src="../scripts/scripts.js"></script>
 </head>
 <body>
     <header>
         <Figure class="logo">
-            <img src="images/rockeyburgers03-logo.png" alt="Rockey Burgers Logo">
+            <img src="../images/rockeyburgers03-logo.png" alt="Rockey Burgers Logo">
         </figure>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="html/about.html">About</a>
-            <a href="html/location.html">Locations</a>
-            <a href="html/menu.html">Menu</a>
-            <a href="html/subscribe.html">Subscribe</a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../html/about.html">About</a></li>
+                <li><a href="../html/location.html">Locations</a></li>
+                <li><a href="../html/menu.html">Menu</a></li>
+                <li><a href="../html/subscribe.html">Subscribe</a></li>
+            </ul>
         </nav>            
     </header>
     <main>
+        <div class="intro">
+            <h1>Rockey Burgers</h1>
+            <h2>Frequently Asked Questions</h2> 
+        </div>
+        <article class="fqa">
+            <div id="fQuestion1">
+                <h5>Why is your Rockey Burger So Expensive?</h5>  
+                <button onclick="revealAnswer1()" class="rButton">More... </button>
+            </div>
+            <div id="fAnswer1">
+                <p>We focus on making meals with the best and freshest ingredients. 
+                like humanely-raised beef that is ground fresh each day, organic
+                chicken, and Rockey Family Dairy's organic cream for our ice cream cones,
+                sundaes and shakes.
+                </p>
+                <p>Our commitment to freshness and quality means higher prices than you'd find
+                at traditional fast-food burger chains.  It also means food that tastes way better - 
+                because, well, it is.
+            </div>
+            <div id="fQuestion2">
+                <h5>Where does your beef come from?</h5>  
+                <button onclick="revealAnswer2()" class="rButton">More...</button>
+            </div>
+            <div id="fAnswer2">
+                <p>We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches.
+                    We use an 85% to 15% protein to fat blend, a mixture of the lean protein and the marbling
+                    found on in a cut of steak for our ground beef.  The mixture is ground daily, and thus,
+                    our burgers taste so amazing.
+                </p>
+            </div>
+        </article>    
     </main>
     <footer>
-        <a href="html/faq.html">FAQ</a>
-        <a href="html/jobs.html">Career</a>
-        <a href="http://www.twitter.com/keyburgers"><i class="fab fa-twitter-square"></i></a>
-        <a href="http://facebook.com/keyburgers"><i class="fab fa-facebook-square"></i></a>
+        <nav>
+            <ul>
+                <li><a href="../html/faq.html" class="active"><i class="far fa-question-circle"></i> FAQ</a></li>
+                <li><a href="../html/jobs.html" ><i class="fas fa-hamburger"></i> Employment</a></li>
+                <li><a href="http://ww.twitter.com/keyburgers" target="_blank"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+                <li><a href="http://www.facebook.com/keyburgers" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+            </ul>
+        </nav>
     </footer>
-           
-
 </body>
 </html>

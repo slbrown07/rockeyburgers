@@ -1,14 +1,16 @@
-function openNav() {
-    document.getElementById("sidenav").style.right = "0px";
-}
-function closeNav() {
-    if (window.innerWidth <= 700)
-        document.getElementById("sidenav").style.right = "-250px"; 
-}
-
-window.onresize = () => {
-    if (window.innerWidth > 700)
-        document.getElementById("sidenav").style.right = "0px";
-    else    
-        document.getElementById("sidenav").style.right = "-250px";
-}
+function revealAnswer1() {
+    var x = document.getElementById("fAnswer1");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function revealAnswer2() {
+    var x = document.getElementById("fAnswer2");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }

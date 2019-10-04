@@ -56,17 +56,7 @@ h5 {
     padding-top: 0;
     margin: 0;
 }
-
-.address {
-    padding: 20px 0;
-}
-
-.address p {
-    padding: 0;
-    margin: 0 20px;
-}
  /*styles for header tag*/
-
 header {
     width: 100%;
     background-color: #91cace;
@@ -111,15 +101,12 @@ header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-
+}
 /*styles for footer tag*/
- 
 footer {
     width: 100%;
     background-color: #d9e8e9;
 }
-
 footer nav {
     margin-top: 10px;
     width: 100%;
@@ -130,7 +117,6 @@ footer nav ul {
     margin: 0;
     padding: 10px 0px;
   }
-
 footer nav li {
     display: inline;
 } 
@@ -141,13 +127,15 @@ footer nav li a {
     padding: 5px;
     text-decoration: none;
   }
+  footer nav li a.active {
+    border-bottom: 2px solid #000000;
+    font-weight: bold;
+}
 footer nav li a:hover {
     color: #ffffff;
     background-color: #000000;
 }
-
-/*styles for main tag*/
-
+/*styles for main page*/
 main {
     margin: 10px 0;
     padding: 10px 0;
@@ -160,7 +148,6 @@ main {
     margin: 0 auto;
     padding: 10px 0;
 }
-
 .menuopt {
     width: 90%;
     display: flex;
@@ -170,7 +157,6 @@ main {
     padding: 20px 0;
     margin: 10px auto;
 }
-
 .menuopt figure {
     margin: 10px 0;
     padding: 0;
@@ -191,7 +177,6 @@ main {
 .menuopt figure figcaption {
     text-align: center;
     margin: auto 0;
-
 }
 .menuopt figure figcaption a {
     color: #000000;
@@ -199,14 +184,13 @@ main {
     padding: 5px;
     text-decoration: none;
 }
-
+/*Styles on About & Location Pages*/
 article {
     margin: 5px auto;
     width: 90%;
     padding: 0;
     position: relative;
 }
-
 aside {
     border: 2px solid #fdd9c4;
     border-radius: 5px;
@@ -214,6 +198,15 @@ aside {
     margin: 0 auto;
     padding: 10px;
 }
+.address {
+    padding: 20px 0;
+}
+
+.address p {
+    padding: 0;
+    margin: 0 20px;
+}
+/*Styles used on menu page*/
 .menuitem {
     width: 100%;
     display: flex;
@@ -233,7 +226,6 @@ aside {
     height: 275px;
     overflow: hidden;
 }
-
 .menuitem article {
     width: 60%;
     padding-top: 10px;
@@ -245,7 +237,40 @@ aside {
 .locDetails {
     margin-left: 20px;
 }
-
+/*Sytles for forms in Subscribe Page and 
+Employment Page*/
+input[type=text], input[type=email],
+select, textarea {
+    display: block;
+    margin: 30px;
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    outline: none;
+}
+input:hover, input:active {
+    border: 5px solid #91cace;
+    outline: none;
+}
+input[type=checkbox] {
+    margin: 0;
+    padding: 0;
+    font-size:40px;
+}
+label {
+    padding: 5px;
+    margin: 5px;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #91cace;
+    border-radius: 5px;
+}
 .subDetail {
     width:  40%;
     background: #fdd9c4;
@@ -254,30 +279,42 @@ aside {
     margin: 0 auto;
     padding: 30px;
 }
-input {
-    display: block;
-    margin: 30px;
-    width: 90%;
-    padding: 5px;
-    margin: 5px;
-    font-size: 20px;
-}
-input:hover {
-    border: 5px solid #91cace;
-}
-label {
-    padding: 5px;
-    margin: 5px;
-}
-button {
-    margin: 20px auto;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bolder;
-    background-color: #91cace;
+.jobDetail {
+    width:  60%;
+    background: #fdd9c4;
+    border: 5px;
     border-radius: 5px;
-    align-items: center;
+    margin: 0 auto;
+    padding: 30px;
 }
+/*Sytles for FQA */
+.rButton {
+    display: inline;
+    margin: 0 0 0 10px;
+    padding: 2px;
+
+}
+#fAnswer1 {
+    display: none;
+    margin: 10px 20px 20px 40px;
+    font-style: italic;
+}
+#fQuestion1 h5 {
+    display: inline;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+#fAnswer2 {
+    display: none;
+    margin: 10px 20px 10px 40px;
+    font-style: italic;
+}
+#fQuestion2 h5 {
+    display: inline;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
 
 
 
